@@ -34,6 +34,11 @@ This approach has several advantages. First, existing Spark applications relying
 
 ## Build
 
+Requirements:
+- CUDA 7.5 or higher
+- magma-2.0.0 is preferred but not necessary
+- Tensorflow (if you wants TF interface)
+
 Type:
 
 	make clean build
